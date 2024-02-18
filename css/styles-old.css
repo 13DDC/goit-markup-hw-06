@@ -130,115 +130,13 @@ p {
   color: #404bbf;
 }
 
-.section-hero {
-  background: #2e2f42;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/peopleoffice.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  max-width: 1440px;
-  display: block;
-  background-size: cover;
-  margin: auto;
-  padding-top: 188px;
-  padding-bottom: 188px;
-}
+/* ========================================================================================================================================================
+Section HERO done!
+======================================================================================================================================================== */
 
-.section-hero-first {
-  color: #fff;
-  text-align: center;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
-  max-width: 496px;
-  margin: 0 auto;
-  margin-bottom: 48px;
-}
-
-.button {
-  color: #ffffff;
-  background: #4d5ae5;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  padding: 16px 32px;
-  border-radius: 4px;
-  border: none;
-  margin: 0 auto;
-  cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.button:hover,
-.button:focus {
-  background-color: #404bbf;
-}
-
-.section-our-info {
-  padding: 120px 0;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-.our-quality-list {
-  display: flex;
-  gap: 24px;
-}
-.our-quality-list-info {
-  width: calc((100% - 72px) / 4);
-}
-.our-quality-icon {
-  border-radius: 4px;
-  border: 1px solid var(--LIGHT-SLATE, #8e8f99);
-  background: #f4f4fd;
-  width: 264px;
-  height: 112px;
-  flex-shrink: 0;
-  margin-bottom: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.our-quality {
-  color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  max-width: 264px;
-  max-height: 24px;
-  margin: 0 auto;
-  margin-bottom: 8px;
-}
-
-.our-quality-info {
-  color: #434455;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  max-width: 264px;
-  max-height: 72px;
-}
+/* ========================================================================================================================================================
+Section 2 done! Our team
+======================================================================================================================================================== */
 
 .team-section {
   background-color: #f4f4fd;
