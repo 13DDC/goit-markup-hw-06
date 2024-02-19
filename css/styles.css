@@ -186,8 +186,12 @@ Our team
   }
   .our-quality-list {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 24px;
     row-gap: 72px;
+    text-align: start;
   }
   .our-quality-icon {
     display: none;
@@ -216,14 +220,18 @@ Our team
 }
 
 @media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
   .our-quality-list {
     flex-direction: row;
     gap: 72px 24px;
   }
 
   .our-quality-list-info {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 24px) / 2);
   }
+
   .our-quality {
     text-align: start;
     margin: inherit;
@@ -253,6 +261,9 @@ Our team
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .our-quality-list-info {
+    width: calc((100% - 72px) / 4);
   }
 
   .our-quality {
@@ -365,12 +376,12 @@ section 3 Team photo
   }
 }
 @media screen and (min-width: 768px) {
-  .container {
+  .container-team {
     width: 584px;
   }
 
   .team-info {
-    width: calc((100% - 24px) / 2);
+    flex-direction: calc((100% - 24px) / 2);
   }
 
   .tema-list {
@@ -391,7 +402,7 @@ section 3 Team photo
     gap: 24px;
   }
   .team-info {
-    width: calc((100% - 72px) / 4);
+    flex-direction: calc((100% - 72px) / 4);
   }
 }
 /* ========================================================================================================================================================
@@ -399,7 +410,7 @@ Sectiom 4 Portfolio
 ======================================================================================================================================================== */
 @media screen and (min-width: 320px) {
   .last-section {
-    padding: 96px 16px;
+    padding: 96px 0px;
   }
 
   .portfolio {
@@ -485,6 +496,9 @@ Sectiom 4 Portfolio
   }
 }
 @media screen and (min-width: 768px) {
+  .last-section {
+    padding: 96px 0;
+  }
   .team-portfolio {
     justify-content: center;
     column-gap: 24px;
